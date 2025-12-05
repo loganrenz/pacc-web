@@ -12,6 +12,9 @@
     { id: '07', title: 'Hydrogen Bridge', path: '/demo/mockup-07/index.html' },
     { id: '08', title: 'H₂ Molecule', path: '/demo/mockup-08/index.html' },
     { id: '09', title: 'H₂ Molecule', path: '/demo/mockup-09/index.html' },
+    { id: '10', title: 'Lumina Flow', path: '/demo/mockup-10/index.html' },
+    { id: '11', title: 'Cascade Rings', path: '/demo/mockup-11/index.html' },
+    { id: '12', title: 'Horizon Threads', path: '/demo/mockup-12/index.html' },
   ];
 
   // Get current mockup ID from path

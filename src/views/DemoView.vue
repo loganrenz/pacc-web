@@ -143,5 +143,29 @@ const mockups = [
     href: '/demo/mockup-09/index.html',
     badge: '09',
   },
+  {
+    title: 'Mockup 10 — Lumina Flow',
+    subtitle: 'Layered grids with glow fields',
+    description:
+      'Three new visualization-library scenes lead a luminous hero, glass cards, and structured pathways for the original PACC copy.',
+    href: '/demo/mockup-10/index.html',
+    badge: '10',
+  },
+  {
+    title: 'Mockup 11 — Cascade Rings',
+    subtitle: 'Carousel-led market narrative',
+    description:
+      'Hero wave canvas from the visualization library paired with a functioning market carousel and cyan-on-navy typography.',
+    href: '/demo/mockup-11/index.html',
+    badge: '11',
+  },
+  {
+    title: 'Mockup 12 — Horizon Threads',
+    subtitle: 'White-on-brand contrast layout',
+    description:
+      'Ribbon galaxy hero scene anchors a clean, bright layout that preserves all PACC sections with gradient highlights.',
+    href: '/demo/mockup-12/index.html',
+    badge: '12',
+  },
 ]
 </script>
