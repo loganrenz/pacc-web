@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { Component } from 'vue'
+import type { Component } from 'vue'
 import BaseButton from '@/components/ui/BaseButton.vue'
 import ImpactCard from '@/components/ui/ImpactCard.vue'
 
