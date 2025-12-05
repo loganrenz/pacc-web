@@ -1,0 +1,20 @@
+<template>
+  <footer class="py-10 border-t border-slate-200 bg-slate-50">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm flex flex-wrap items-center justify-between gap-4"
+    >
+      <div class="flex items-center">
+        <img :src="paccLogo" alt="PACC" class="h-12 sm:h-32 lg:h-42 w-auto" />
+      </div>
+
+      <div class="text-slate-500">© {{ currentYear }} PACC. All rights reserved.</div>
+    </div>
+  </footer>
+</template>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+import paccLogo from '@/assets/images/logo_full_cropped.png'
+
+const currentYear = computed(() => new Date().getFullYear())
+</script>
