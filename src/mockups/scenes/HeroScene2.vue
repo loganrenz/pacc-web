@@ -135,10 +135,6 @@ onMounted(() => {
     renderer.dispose()
   })
 })
-
-onUnmounted(() => {
-  // Additional cleanup handled in mount cleanup function
-})
 </script>
 
 <style scoped>
