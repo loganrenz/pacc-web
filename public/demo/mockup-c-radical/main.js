@@ -1,5 +1,12 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164/build/three.module.js'
-import { createRenderer, createCamera, handleResize, createParticleField, createNeonGrid, createLowPolyPrism } from '../shared/three-utils.js'
+import {
+  createRenderer,
+  createCamera,
+  handleResize,
+  createParticleField,
+  createNeonGrid,
+  createLowPolyPrism,
+} from '../shared/three-utils.js'
 
 const canvas = document.getElementById('radical-canvas')
 const scene = new THREE.Scene()
@@ -26,7 +33,14 @@ const rings = new THREE.Group()
 for (let i = 0; i < 5; i++) {
   const ring = new THREE.Mesh(
     new THREE.TorusGeometry(24 + i * 8, 0.7 + i * 0.2, 16, 150),
-    new THREE.MeshStandardMaterial({ color: 0x5cb85c, emissive: 0x1c532d, metalness: 0.6, roughness: 0.25, transparent: true, opacity: 0.7 }),
+    new THREE.MeshStandardMaterial({
+      color: 0x5cb85c,
+      emissive: 0x1c532d,
+      metalness: 0.6,
+      roughness: 0.25,
+      transparent: true,
+      opacity: 0.7,
+    }),
   )
   ring.rotation.x = Math.PI / 2
   rings.add(ring)

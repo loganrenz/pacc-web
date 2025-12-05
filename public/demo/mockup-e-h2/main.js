@@ -1,5 +1,11 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164/build/three.module.js'
-import { createRenderer, createCamera, handleResize, createParticleField, createNeonGrid } from '../shared/three-utils.js'
+import {
+  createRenderer,
+  createCamera,
+  handleResize,
+  createParticleField,
+  createNeonGrid,
+} from '../shared/three-utils.js'
 
 const canvas = document.getElementById('h2-canvas')
 const scene = new THREE.Scene()
@@ -112,7 +118,9 @@ function goToSlide(index) {
 
 buildDots()
 let auto = setInterval(() => goToSlide((activeSlide + 1) % slides.length), 4200)
-track.addEventListener('pointerdown', () => { clearInterval(auto) })
+track.addEventListener('pointerdown', () => {
+  clearInterval(auto)
+})
 
 function animate(time) {
   requestAnimationFrame(animate)

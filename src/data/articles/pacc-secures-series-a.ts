@@ -22,7 +22,7 @@ export const paccSecuresSeriesA: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The round was led by prominent venture capital firms with deep expertise in energy infrastructure and climate technology, with participation from strategic investors in the energy and logistics sectors. The funding reflects strong investor confidence in PACC\'s approach to building hydrogen market infrastructure and the company\'s potential to become a critical enabler of the energy transition.',
+      text: "The round was led by prominent venture capital firms with deep expertise in energy infrastructure and climate technology, with participation from strategic investors in the energy and logistics sectors. The funding reflects strong investor confidence in PACC's approach to building hydrogen market infrastructure and the company's potential to become a critical enabler of the energy transition.",
     },
     {
       type: 'paragraph',
@@ -35,7 +35,7 @@ export const paccSecuresSeriesA: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The Series A funding will support PACC\'s expansion across multiple dimensions, including geographic growth, technology development, and team building. The company plans to use the capital to establish operations in key hydrogen markets, enhance its technology platform, and hire experienced professionals in trading, logistics, and technology.',
+      text: "The Series A funding will support PACC's expansion across multiple dimensions, including geographic growth, technology development, and team building. The company plans to use the capital to establish operations in key hydrogen markets, enhance its technology platform, and hire experienced professionals in trading, logistics, and technology.",
     },
     {
       type: 'paragraph',
@@ -58,7 +58,7 @@ export const paccSecuresSeriesA: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The funding round comes at a time of unprecedented momentum in the hydrogen economy, driven by federal incentives, corporate decarbonization commitments, and growing recognition of hydrogen\'s role in the energy transition. Investors recognize that building market infrastructure is critical to scaling hydrogen adoption.',
+      text: "The funding round comes at a time of unprecedented momentum in the hydrogen economy, driven by federal incentives, corporate decarbonization commitments, and growing recognition of hydrogen's role in the energy transition. Investors recognize that building market infrastructure is critical to scaling hydrogen adoption.",
     },
     {
       type: 'paragraph',
@@ -71,7 +71,7 @@ export const paccSecuresSeriesA: Article = {
     },
     {
       type: 'paragraph',
-      text: 'With the Series A funding, PACC is positioned to accelerate its growth and play an increasingly important role in the hydrogen economy. The company\'s focus on building market infrastructure aligns with the needs of a rapidly scaling industry, and the funding provides the resources needed to execute on this vision.',
+      text: "With the Series A funding, PACC is positioned to accelerate its growth and play an increasingly important role in the hydrogen economy. The company's focus on building market infrastructure aligns with the needs of a rapidly scaling industry, and the funding provides the resources needed to execute on this vision.",
     },
     {
       type: 'paragraph',
@@ -83,4 +83,3 @@ export const paccSecuresSeriesA: Article = {
     },
   ],
 }
-

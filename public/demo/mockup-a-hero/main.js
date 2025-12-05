@@ -1,5 +1,11 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164/build/three.module.js'
-import { createRenderer, createCamera, handleResize, createParticleField, pulseMaterial } from '../shared/three-utils.js'
+import {
+  createRenderer,
+  createCamera,
+  handleResize,
+  createParticleField,
+  pulseMaterial,
+} from '../shared/three-utils.js'
 
 const canvas = document.getElementById('hero-canvas')
 const scene = new THREE.Scene()

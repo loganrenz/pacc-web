@@ -27,7 +27,12 @@ initScene('split-hero', (scene) => {
   scene.add(particles)
   const torus = new THREE.Mesh(
     new THREE.TorusGeometry(24, 6, 16, 120),
-    new THREE.MeshStandardMaterial({ color: 0x0066a6, emissive: 0x001f32, metalness: 0.7, roughness: 0.35 }),
+    new THREE.MeshStandardMaterial({
+      color: 0x0066a6,
+      emissive: 0x001f32,
+      metalness: 0.7,
+      roughness: 0.35,
+    }),
   )
   scene.add(torus)
   const light = new THREE.PointLight(0xffffff, 1.4, 400)
@@ -75,7 +80,12 @@ initScene('split-leadership', (scene) => {
   scene.add(prism)
   const halo = new THREE.Mesh(
     new THREE.RingGeometry(18, 26, 64),
-    new THREE.MeshBasicMaterial({ color: 0x5cb85c, side: THREE.DoubleSide, transparent: true, opacity: 0.4 }),
+    new THREE.MeshBasicMaterial({
+      color: 0x5cb85c,
+      side: THREE.DoubleSide,
+      transparent: true,
+      opacity: 0.4,
+    }),
   )
   halo.rotation.x = Math.PI / 2
   scene.add(halo)
@@ -93,7 +103,12 @@ initScene('split-news', (scene) => {
   for (let i = 0; i < 4; i++) {
     const ring = new THREE.Mesh(
       new THREE.TorusGeometry(20 + i * 6, 0.9, 8, 80),
-      new THREE.MeshStandardMaterial({ color: 0x00497a, emissive: 0x00172a, metalness: 0.6, roughness: 0.2 }),
+      new THREE.MeshStandardMaterial({
+        color: 0x00497a,
+        emissive: 0x00172a,
+        metalness: 0.6,
+        roughness: 0.2,
+      }),
     )
     ring.rotation.x = (i * Math.PI) / 8
     ring.rotation.y = (i * Math.PI) / 10
@@ -114,9 +129,17 @@ initScene('split-contact', (scene) => {
   for (let i = 0; i < 60; i++) {
     const node = new THREE.Mesh(
       new THREE.SphereGeometry(1.8, 16, 16),
-      new THREE.MeshStandardMaterial({ color: 0xffffff, emissive: 0x5cb85c, emissiveIntensity: 0.7 }),
+      new THREE.MeshStandardMaterial({
+        color: 0xffffff,
+        emissive: 0x5cb85c,
+        emissiveIntensity: 0.7,
+      }),
     )
-    node.position.set((Math.random() - 0.5) * 80, (Math.random() - 0.5) * 80, (Math.random() - 0.5) * 40)
+    node.position.set(
+      (Math.random() - 0.5) * 80,
+      (Math.random() - 0.5) * 80,
+      (Math.random() - 0.5) * 40,
+    )
     nodes.add(node)
   }
   scene.add(nodes)

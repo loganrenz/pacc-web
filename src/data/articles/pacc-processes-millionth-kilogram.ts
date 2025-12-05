@@ -3,13 +3,14 @@ import paccLogo from '@/assets/images/logo_full_cropped.png'
 
 export const paccProcessesMillionthKilogram: Article = {
   slug: 'pacc-processes-millionth-kilogram',
-  title: 'PACC Reaches Milestone: Processes One Million Kilograms of Hydrogen Through Market-Making Platform',
+  title:
+    'PACC Reaches Milestone: Processes One Million Kilograms of Hydrogen Through Market-Making Platform',
   date: 'September 12, 2024',
   location: 'San Francisco, CA',
   category: 'Milestone',
   image: paccLogo,
   excerpt:
-    'PACC today announced that it has processed one million kilograms of hydrogen through its market-making platform, marking a significant milestone in the company\'s mission to build efficient hydrogen markets and accelerate the energy transition.',
+    "PACC today announced that it has processed one million kilograms of hydrogen through its market-making platform, marking a significant milestone in the company's mission to build efficient hydrogen markets and accelerate the energy transition.",
   content: [
     {
       type: 'image',
@@ -18,11 +19,11 @@ export const paccProcessesMillionthKilogram: Article = {
     },
     {
       type: 'paragraph',
-      text: 'PACC, a pioneering hydrogen and specialty gases market-maker, today announced that it has processed one million kilograms of hydrogen through its market-making platform, marking a significant milestone in the company\'s mission to build efficient hydrogen markets and accelerate the energy transition.',
+      text: "PACC, a pioneering hydrogen and specialty gases market-maker, today announced that it has processed one million kilograms of hydrogen through its market-making platform, marking a significant milestone in the company's mission to build efficient hydrogen markets and accelerate the energy transition.",
     },
     {
       type: 'paragraph',
-      text: 'The milestone reflects PACC\'s rapid growth since launching its platform and demonstrates the increasing demand for professional market-making services in the hydrogen industry. The one million kilograms processed represent hydrogen delivered to customers across multiple sectors, including industrial applications, transportation, and energy storage.',
+      text: "The milestone reflects PACC's rapid growth since launching its platform and demonstrates the increasing demand for professional market-making services in the hydrogen industry. The one million kilograms processed represent hydrogen delivered to customers across multiple sectors, including industrial applications, transportation, and energy storage.",
     },
     {
       type: 'paragraph',
@@ -39,7 +40,7 @@ export const paccProcessesMillionthKilogram: Article = {
     },
     {
       type: 'paragraph',
-      text: 'Key factors driving PACC\'s growth include:',
+      text: "Key factors driving PACC's growth include:",
     },
     {
       type: 'list',
@@ -57,7 +58,7 @@ export const paccProcessesMillionthKilogram: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The volume milestone reflects broader momentum in the hydrogen economy, driven by federal incentives, corporate decarbonization commitments, and growing recognition of hydrogen\'s role in the energy transition. PACC\'s market-making platform is helping to bridge the gap between production capacity and customer demand, enabling the hydrogen economy to scale more rapidly.',
+      text: "The volume milestone reflects broader momentum in the hydrogen economy, driven by federal incentives, corporate decarbonization commitments, and growing recognition of hydrogen's role in the energy transition. PACC's market-making platform is helping to bridge the gap between production capacity and customer demand, enabling the hydrogen economy to scale more rapidly.",
     },
     {
       type: 'paragraph',
@@ -73,4 +74,3 @@ export const paccProcessesMillionthKilogram: Article = {
     },
   ],
 }
-

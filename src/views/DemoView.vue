@@ -3,13 +3,16 @@
     <AppHeader />
     <main class="pt-28 lg:pt-32 pb-16">
       <section class="max-w-6xl mx-auto px-6 lg:px-10">
-        <p class="uppercase tracking-[0.2em] text-brand-green/80 text-xs font-semibold mb-4">Interactive Showcase</p>
+        <p class="uppercase tracking-[0.2em] text-brand-green/80 text-xs font-semibold mb-4">
+          Interactive Showcase
+        </p>
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
           Explore the PACC services design mockups
         </h1>
         <p class="text-lg text-slate-200/90 max-w-3xl leading-relaxed">
-          A dedicated demo hub linking to three immersive static mockups of the pacc.services site. Each mockup keeps the
-          original content and palette while experimenting with distinct layouts and Three.js-driven visuals.
+          A dedicated demo hub linking to three immersive static mockups of the pacc.services site.
+          Each mockup keeps the original content and palette while experimenting with distinct
+          layouts and Three.js-driven visuals.
         </p>
       </section>
 
@@ -21,7 +24,9 @@
         >
           <div class="p-6 flex flex-col gap-4 h-full">
             <div class="flex items-center gap-3">
-              <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-brand/15 text-brand-green font-semibold text-lg">
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-brand/15 text-brand-green font-semibold text-lg"
+              >
                 {{ mockup.badge }}
               </span>
               <div>
@@ -40,7 +45,12 @@
                 rel="noreferrer"
               >
                 Open mockup
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
                   <path
                     fill-rule="evenodd"
                     d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"

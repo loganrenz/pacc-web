@@ -9,7 +9,7 @@ export const paccExpandsToTexas: Article = {
   category: 'Press Release',
   image: paccLogo,
   excerpt:
-    'PACC today announced the expansion of its operations to Texas, establishing a regional hub in Houston to serve the rapidly growing hydrogen market in the Gulf Coast region, home to some of the nation\'s largest hydrogen production facilities.',
+    "PACC today announced the expansion of its operations to Texas, establishing a regional hub in Houston to serve the rapidly growing hydrogen market in the Gulf Coast region, home to some of the nation's largest hydrogen production facilities.",
   content: [
     {
       type: 'image',
@@ -22,7 +22,7 @@ export const paccExpandsToTexas: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The expansion positions PACC to capitalize on the significant hydrogen production capacity in Texas, which is home to some of the nation\'s largest hydrogen facilities and a growing number of clean hydrogen projects supported by federal incentives. The Houston office will serve as PACC\'s primary operations center for the Gulf Coast region, enabling closer collaboration with producers and customers throughout Texas, Louisiana, and surrounding states.',
+      text: "The expansion positions PACC to capitalize on the significant hydrogen production capacity in Texas, which is home to some of the nation's largest hydrogen facilities and a growing number of clean hydrogen projects supported by federal incentives. The Houston office will serve as PACC's primary operations center for the Gulf Coast region, enabling closer collaboration with producers and customers throughout Texas, Louisiana, and surrounding states.",
     },
     {
       type: 'paragraph',
@@ -35,7 +35,7 @@ export const paccExpandsToTexas: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The Gulf Coast region offers unique advantages for hydrogen market-making, including proximity to major production facilities, extensive pipeline infrastructure, and strong industrial demand from refineries, chemical plants, and other energy-intensive operations. PACC\'s presence in Houston will enable the company to more effectively aggregate demand, coordinate logistics, and create value for both producers and customers.',
+      text: "The Gulf Coast region offers unique advantages for hydrogen market-making, including proximity to major production facilities, extensive pipeline infrastructure, and strong industrial demand from refineries, chemical plants, and other energy-intensive operations. PACC's presence in Houston will enable the company to more effectively aggregate demand, coordinate logistics, and create value for both producers and customers.",
     },
     {
       type: 'paragraph',
@@ -57,7 +57,7 @@ export const paccExpandsToTexas: Article = {
     },
     {
       type: 'paragraph',
-      text: 'Texas has emerged as a leader in clean hydrogen development, with numerous projects announced following the passage of the Inflation Reduction Act. The state\'s existing energy infrastructure, favorable regulatory environment, and abundant renewable energy resources position it as a key hub for the emerging hydrogen economy.',
+      text: "Texas has emerged as a leader in clean hydrogen development, with numerous projects announced following the passage of the Inflation Reduction Act. The state's existing energy infrastructure, favorable regulatory environment, and abundant renewable energy resources position it as a key hub for the emerging hydrogen economy.",
     },
     {
       type: 'paragraph',
@@ -65,7 +65,7 @@ export const paccExpandsToTexas: Article = {
     },
     {
       type: 'paragraph',
-      text: 'PACC expects to begin operations from its Houston office in the first quarter of 2025, with initial focus on building relationships with regional producers and customers. The expansion represents a significant milestone in PACC\'s growth strategy and demonstrates the company\'s commitment to building comprehensive hydrogen market infrastructure across North America.',
+      text: "PACC expects to begin operations from its Houston office in the first quarter of 2025, with initial focus on building relationships with regional producers and customers. The expansion represents a significant milestone in PACC's growth strategy and demonstrates the company's commitment to building comprehensive hydrogen market infrastructure across North America.",
     },
     {
       type: 'paragraph',
@@ -73,4 +73,3 @@ export const paccExpandsToTexas: Article = {
     },
   ],
 }
-

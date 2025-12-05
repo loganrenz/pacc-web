@@ -16,9 +16,11 @@ function buildDots() {
 
 function goTo(index) {
   active = (index + slides.length) % slides.length
-  const offset = active * (slides[0].getBoundingClientRect().width)
+  const offset = active * slides[0].getBoundingClientRect().width
   track.style.transform = `translateX(-${offset}px)`
-  dots.querySelectorAll('button').forEach((dot, idx) => dot.classList.toggle('active', idx === active))
+  dots
+    .querySelectorAll('button')
+    .forEach((dot, idx) => dot.classList.toggle('active', idx === active))
 }
 
 prev.addEventListener('click', () => goTo(active - 1))

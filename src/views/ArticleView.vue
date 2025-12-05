@@ -47,7 +47,7 @@
                     :src="block.src"
                     :alt="block.alt || ''"
                     class="max-w-full h-auto"
-                    style="max-width: 150px; width: 100%;"
+                    style="max-width: 150px; width: 100%"
                   />
                 </div>
               </template>

@@ -38,7 +38,14 @@ function createSoftParticleTexture() {
   canvas.width = size
   canvas.height = size
   const ctx = canvas.getContext('2d')
-  const gradient = ctx.createRadialGradient(size / 2, size / 2, size / 16, size / 2, size / 2, size / 2)
+  const gradient = ctx.createRadialGradient(
+    size / 2,
+    size / 2,
+    size / 16,
+    size / 2,
+    size / 2,
+    size / 2,
+  )
   gradient.addColorStop(0, 'rgba(255,255,255,0.95)')
   gradient.addColorStop(0.5, 'rgba(255,255,255,0.25)')
   gradient.addColorStop(1, 'rgba(255,255,255,0)')

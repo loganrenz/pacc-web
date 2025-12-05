@@ -9,7 +9,7 @@ export const paccNamedTopInnovator: Article = {
   category: 'Award',
   image: paccLogo,
   excerpt:
-    'PACC today announced it has been recognized as a Top Hydrogen Innovation Company by the Clean Energy Industry Association, honoring the company\'s pioneering approach to building market infrastructure for the hydrogen economy.',
+    "PACC today announced it has been recognized as a Top Hydrogen Innovation Company by the Clean Energy Industry Association, honoring the company's pioneering approach to building market infrastructure for the hydrogen economy.",
   content: [
     {
       type: 'image',
@@ -18,11 +18,11 @@ export const paccNamedTopInnovator: Article = {
     },
     {
       type: 'paragraph',
-      text: 'PACC, a pioneering hydrogen and specialty gases market-maker, today announced it has been recognized as a Top Hydrogen Innovation Company by the Clean Energy Industry Association, honoring the company\'s pioneering approach to building market infrastructure for the hydrogen economy.',
+      text: "PACC, a pioneering hydrogen and specialty gases market-maker, today announced it has been recognized as a Top Hydrogen Innovation Company by the Clean Energy Industry Association, honoring the company's pioneering approach to building market infrastructure for the hydrogen economy.",
     },
     {
       type: 'paragraph',
-      text: 'The recognition highlights PACC\'s innovative market-making platform, which addresses critical infrastructure gaps in the hydrogen value chain. The award specifically acknowledges PACC\'s contributions to creating efficient markets, de-risking supply chains, and enabling the scale-up of hydrogen adoption across industrial and transportation sectors.',
+      text: "The recognition highlights PACC's innovative market-making platform, which addresses critical infrastructure gaps in the hydrogen value chain. The award specifically acknowledges PACC's contributions to creating efficient markets, de-risking supply chains, and enabling the scale-up of hydrogen adoption across industrial and transportation sectors.",
     },
     {
       type: 'paragraph',
@@ -35,7 +35,7 @@ export const paccNamedTopInnovator: Article = {
     },
     {
       type: 'paragraph',
-      text: 'PACC was recognized for its innovative approach to hydrogen market-making, which combines sophisticated logistics coordination, risk management, and technology to create efficient markets. The company\'s platform addresses key challenges including supply chain de-risking, demand aggregation, and logistics optimization.',
+      text: "PACC was recognized for its innovative approach to hydrogen market-making, which combines sophisticated logistics coordination, risk management, and technology to create efficient markets. The company's platform addresses key challenges including supply chain de-risking, demand aggregation, and logistics optimization.",
     },
     {
       type: 'paragraph',
@@ -58,7 +58,7 @@ export const paccNamedTopInnovator: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The Clean Energy Industry Association\'s Top Hydrogen Innovation Companies list recognizes organizations that are driving meaningful progress in hydrogen adoption and infrastructure development. The award highlights companies that are not only innovating technically but also creating business models that enable hydrogen to scale.',
+      text: "The Clean Energy Industry Association's Top Hydrogen Innovation Companies list recognizes organizations that are driving meaningful progress in hydrogen adoption and infrastructure development. The award highlights companies that are not only innovating technically but also creating business models that enable hydrogen to scale.",
     },
     {
       type: 'paragraph',
@@ -71,7 +71,7 @@ export const paccNamedTopInnovator: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The recognition comes as PACC continues to expand its operations and build partnerships across the hydrogen value chain. The company\'s focus on innovation in market infrastructure positions it to play a central role as the hydrogen economy scales.',
+      text: "The recognition comes as PACC continues to expand its operations and build partnerships across the hydrogen value chain. The company's focus on innovation in market infrastructure positions it to play a central role as the hydrogen economy scales.",
     },
     {
       type: 'paragraph',
@@ -83,4 +83,3 @@ export const paccNamedTopInnovator: Article = {
     },
   ],
 }
-

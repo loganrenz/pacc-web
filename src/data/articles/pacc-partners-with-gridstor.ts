@@ -3,13 +3,14 @@ import paccLogo from '@/assets/images/logo_full_cropped.png'
 
 export const paccPartnersWithGridstor: Article = {
   slug: 'pacc-partners-with-gridstor',
-  title: 'PACC Announces Strategic Partnership with GridStor to Accelerate Hydrogen Storage Solutions',
+  title:
+    'PACC Announces Strategic Partnership with GridStor to Accelerate Hydrogen Storage Solutions',
   date: 'November 20, 2024',
   location: 'San Francisco, CA',
   category: 'Press Release',
   image: paccLogo,
   excerpt:
-    'PACC today announced a strategic partnership with GridStor, a leading energy storage developer, to integrate advanced hydrogen storage capabilities into PACC\'s market-making platform, enabling more flexible and reliable hydrogen supply chains.',
+    "PACC today announced a strategic partnership with GridStor, a leading energy storage developer, to integrate advanced hydrogen storage capabilities into PACC's market-making platform, enabling more flexible and reliable hydrogen supply chains.",
   content: [
     {
       type: 'image',
@@ -18,11 +19,11 @@ export const paccPartnersWithGridstor: Article = {
     },
     {
       type: 'paragraph',
-      text: 'PACC, a pioneering hydrogen and specialty gases market-maker, today announced a strategic partnership with GridStor, a leading developer of grid-scale energy storage solutions, to integrate advanced hydrogen storage capabilities into PACC\'s market-making platform.',
+      text: "PACC, a pioneering hydrogen and specialty gases market-maker, today announced a strategic partnership with GridStor, a leading developer of grid-scale energy storage solutions, to integrate advanced hydrogen storage capabilities into PACC's market-making platform.",
     },
     {
       type: 'paragraph',
-      text: 'The partnership will enable PACC to offer customers enhanced supply chain flexibility through GridStor\'s innovative hydrogen storage infrastructure. This collaboration addresses one of the critical challenges in hydrogen distribution: the need for strategic storage capacity to balance supply and demand fluctuations.',
+      text: "The partnership will enable PACC to offer customers enhanced supply chain flexibility through GridStor's innovative hydrogen storage infrastructure. This collaboration addresses one of the critical challenges in hydrogen distribution: the need for strategic storage capacity to balance supply and demand fluctuations.",
     },
     {
       type: 'paragraph',
@@ -35,7 +36,7 @@ export const paccPartnersWithGridstor: Article = {
     },
     {
       type: 'paragraph',
-      text: 'The integration of GridStor\'s storage solutions into PACC\'s platform will allow customers to better manage supply variability, seasonal demand fluctuations, and production schedules. This capability is particularly valuable for industrial customers who require consistent hydrogen supply for critical operations.',
+      text: "The integration of GridStor's storage solutions into PACC's platform will allow customers to better manage supply variability, seasonal demand fluctuations, and production schedules. This capability is particularly valuable for industrial customers who require consistent hydrogen supply for critical operations.",
     },
     {
       type: 'paragraph',
@@ -44,7 +45,7 @@ export const paccPartnersWithGridstor: Article = {
     {
       type: 'list',
       items: [
-        'Strategic Storage Access: Customers gain access to GridStor\'s network of hydrogen storage facilities',
+        "Strategic Storage Access: Customers gain access to GridStor's network of hydrogen storage facilities",
         'Supply Chain Optimization: Enhanced ability to balance production schedules with customer demand',
         'Risk Mitigation: Reduced exposure to supply disruptions through strategic storage reserves',
         'Market Flexibility: Ability to store hydrogen during low-demand periods and deploy during peak needs',
@@ -57,7 +58,7 @@ export const paccPartnersWithGridstor: Article = {
     },
     {
       type: 'paragraph',
-      text: 'This partnership represents a significant step forward in building the comprehensive market infrastructure needed for a mature hydrogen economy. By combining PACC\'s market-making expertise with GridStor\'s storage capabilities, the collaboration creates a more robust and flexible hydrogen distribution ecosystem.',
+      text: "This partnership represents a significant step forward in building the comprehensive market infrastructure needed for a mature hydrogen economy. By combining PACC's market-making expertise with GridStor's storage capabilities, the collaboration creates a more robust and flexible hydrogen distribution ecosystem.",
     },
     {
       type: 'paragraph',
@@ -73,4 +74,3 @@ export const paccPartnersWithGridstor: Article = {
     },
   ],
 }
-

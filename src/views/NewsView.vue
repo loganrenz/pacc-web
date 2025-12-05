@@ -25,13 +25,9 @@
               v-if="article.image"
               class="bg-gradient-to-br from-brand/5 to-brand-green/5 p-12 flex items-center justify-center"
             >
-              <img
-                :src="article.image"
-                :alt="article.title"
-                class="h-32 w-auto object-contain"
-              />
+              <img :src="article.image" :alt="article.title" class="h-32 w-auto object-contain" />
             </div>
-            
+
             <div class="p-8">
               <div class="text-xs font-semibold text-brand uppercase tracking-wider mb-2">
                 {{ article.category }}
