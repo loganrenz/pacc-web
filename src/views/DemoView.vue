@@ -121,5 +121,29 @@ const mockups = [
     href: '/demo/mockup-f-carousel/',
     badge: 'F',
   },
+  {
+    title: 'Mockup G — Reactor Core',
+    subtitle: 'Hydrogen reactor with concentric rings and energy pulses',
+    description:
+      'Full-viewport cylindrical chamber with rotating reactor core, glowing hydrogen sun, and animated energy arcs.',
+    href: '/demo/mockup-g-reactor/',
+    badge: 'G',
+  },
+  {
+    title: 'Mockup H — Molecule Sculpture',
+    subtitle: 'Giant H₂ molecule with electron cloud particles',
+    description:
+      'Massive stylized hydrogen molecule floating in void-like space with orbital electron particles and prismatic effects.',
+    href: '/demo/mockup-h-molecule/',
+    badge: 'H',
+  },
+  {
+    title: 'Mockup I — Energy Grid',
+    subtitle: 'Network visualization with pulsing nodes and connections',
+    description:
+      'Top-down view of glowing energy network with animated node clusters and light pulses traveling along connections.',
+    href: '/demo/mockup-i-grid/',
+    badge: 'I',
+  },
 ]
 </script>
